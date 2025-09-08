@@ -162,7 +162,7 @@ export default function PrisonerManagement() {
       fetchData();
     } catch (err: any) {
       message.error(
-        `ลบข้อมูลไม่สำเร็จ: ${err.response?.data?.error || err.message}`
+        `ลบข้อมูลไม่สำ: ${err.response?.data?.error || err.message}`
       );
     }
   };
